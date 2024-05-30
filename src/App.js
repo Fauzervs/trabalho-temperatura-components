@@ -24,7 +24,7 @@ function App() {
   const callApi = () => {
     const cidadeCodificada = encodeURIComponent(cidade);
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${cidadeCodificada}&lang=pt_br&appid=777fd6c175f16899b669ab9b22be7638&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=${cidadeCodificada}&lang=pt_br&appid=3334c42780038c90f6086571b77314ff&units=metric`
     )
       .then((resposta) => {
         if (!resposta.ok) {
