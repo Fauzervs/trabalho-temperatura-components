@@ -1,0 +1,9 @@
+.card {
+    background-color: #007bff; /* Azul */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    color: white; /* Texto branco para contraste */
+    text-align: center;
+  }
+  
